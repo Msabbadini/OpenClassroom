@@ -1,0 +1,153 @@
+@media (max-width: 1300px) {
+  .hebergement_marseille {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .list_rooms_marseille{
+    width: 100%;
+  }
+  .list_rooms .card_room {
+    width: 47%;
+  }
+  .filtres {
+    flex-wrap: wrap;
+  }
+  .list_activite_marseille{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height : 680px;
+  }
+  .col_activite_cards{
+    flex-direction: row;
+    width: 66%;
+  }
+  /* .activite_card img{
+    height: 81%;
+  } */
+  .activite_card{
+    width: 30%;
+  }
+  .h60, .h40 {
+    height : 250px;
+  }
+  .h50{
+    height : 320px;
+  }
+}
+
+@media (max-width: 768px) {
+    .container_body{
+        padding: 0;
+    }
+
+  .filtres h2 {
+    width: 100%;
+  }
+
+  .hebergement_marseille {
+    flex-wrap: wrap-reverse;
+  }
+  .icon_button_search {
+    display: none;
+  }
+  .list_activite_marseille {
+    height : auto;
+  }
+  .activite_card {
+    width : 100%;
+  }
+  .h100, .h60, .h50, .h40 {
+    height : 300px;
+  }
+  .info_title_popular h4 {
+    font-weight: 800;
+    font-size: medium;
+}
+}
+
+@media (max-width: 430px) {
+header{
+  margin-bottom: 60px;
+}
+.nav-container{
+  justify-content: center;
+}
+  .logo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .nav-list li{
+    border-top: none;
+    border-bottom: 4px solid transparent;
+    
+  }
+  .nav-list li:hover {
+    border-top: none;
+    border-color: var(--bleu);
+  }
+  .activite_marseille{
+    margin: 60px 15px;
+  }
+.activite_card{
+  max-width: 100%;
+}
+
+.col_activite_cards{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+main{
+    margin: 0;
+}
+.b_information{
+    padding: 0px 30px 0px 30px;
+}
+
+  .list_rooms_marseille {
+    background-color: transparent;
+  }
+  .list_rooms {
+    background-color: transparent;
+  }
+  .title_rooms_bloc {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .subtitle_room {
+    padding: 20px 15px 25px 15px;
+  }
+  .text_button_search {
+    display: none;
+  }
+  .list_rooms .card_room {
+    width: 100%;
+  }
+  .icon_button_search {
+    display: block;
+  }
+  .list_popular_Marseille{
+    border-radius: 0;
+  }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items: center;
+    background-color: var(--gris);
+    width: 100%;
+    padding: 3%;
+  }
+  .assistance,
+  .a_propos,
+  .hebergement {
+    margin-top: 50px;
+    margin-left: 5%;
+  }
+}
