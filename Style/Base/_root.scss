@@ -1,0 +1,18 @@
+// Mise en place des variables 
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Police/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: 'Shrikhand';
+    src: url('../Police/Shrikhand-Regular.ttf');
+}
+
+
+$Roboto : 'Roboto';
+$Shrikhand :'Shrikhand';
+
+$primaire : #9356DC;
+$secondaire : #FF79DA;
+$tertiare : #99E2D0;
+
